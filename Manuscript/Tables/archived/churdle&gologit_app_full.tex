@@ -1,0 +1,57 @@
+\resizebox{\columnwidth}{!}{%
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{(1)}                              &\multicolumn{3}{c}{(2)}                                           \\
+                    &\multicolumn{2}{c}{Two-Stage Model}                        &\multicolumn{3}{c}{Generalized Ordered Logit Model}  \\
+                    &  Consumption         &Selection         &  No LPG         &No LPG        &  No LPG \&\\
+                    &          &         &          &\& Stacking     &   Stacking (LPG Secondary) \\
+                    &   &     &        & (LPG Secondary)     &  \& Stacking (LPG Primary)\\       
+                    
+\hline
+log (Monthly Expenditure)&       0.140\sym{***}&       0.416\sym{***}&       0.567\sym{***}&       0.574\sym{***}&       0.503\sym{***}\\
+                    &    (0.0159)         &    (0.0245)         &    (0.0292)         &    (0.0247)         &    (0.0197)         \\
+[1em]
+Household Size       &      0.0151\sym{***}&     -0.0132\sym{***}&       1.081\sym{***}&       1.046\sym{***}&       1.023\sym{***}\\
+                    &   (0.00267)         &   (0.00397)         &    (0.0138)         &   (0.00865)         &   (0.00673)         \\
+[1em]
+Education: Up to 5th Standard          &       0.121\sym{***}&       0.262\sym{***}&       0.640\sym{***}&       0.640\sym{***}&       0.640\sym{***}\\
+                    &    (0.0234)         &    (0.0304)        &    (0.0305)         &    (0.0305)         &    (0.0305)         \\
+[1em]                    
+Education: More than 5th Standard        &       0.223\sym{***}&       0.697\sym{***}&       0.330\sym{***}&       0.330\sym{***}&       0.330\sym{***}\\
+                    &    (0.0228)         &    (0.0348)         &    (0.0177)         &    (0.0177)         &    (0.0177)         \\
+[1em]
+Caste: OBC             &      -0.114\sym{***}&      -0.239\sym{***}&       1.494\sym{***}&       1.494\sym{***}&       1.494\sym{***}\\
+                    &    (0.0222)         &    (0.0401)         &    (0.0896)         &    (0.0896)         &    (0.0896)         \\
+[1em]
+Caste: ST            &      -0.228\sym{***}&      -0.433\sym{***} &       1.948\sym{***}&       1.948\sym{***}&       1.948\sym{***}\\
+                    &    (0.0559)         &    (0.0724)         &     (0.240)         &     (0.240)         &     (0.240)         \\
+Caste: SC            &      -0.136\sym{***}&      -0.389\sym{***}&       1.847\sym{***}&       1.847\sym{***}&       1.847\sym{***}\\
+                    &    (0.0279)         &    (0.0506)         &     (0.142)         &     (0.142)         &     (0.142)         \\
+[1em]
+Gender: Woman   &      0.0350         &       0.144\sym{**} &       0.801\sym{**} &       0.801\sym{**} &       0.801\sym{**} \\
+                    &    (0.0320)         &    (0.0494)          &    (0.0585)         &    (0.0585)         &    (0.0585)         \\
+[1em]
+Gender: Both          &      0.0282         &       0.114\sym{***}&       0.893         &       0.772\sym{***}&       0.802\sym{***}\\
+                    &    (0.0197)         &    (0.0318)        &    (0.0665)         &    (0.0438)         &    (0.0409)         \\
+[1em]
+Religion: Hindu        &     -0.0527         &      0.0882         &       1.051         &       1.069         &       0.890         \\
+                    &    (0.0323)         &    (0.0515)         &     (0.118)         &     (0.104)         &    (0.0766)         \\
+[1em]
+Decision Maker Age           &     0.00217\sym{***}&     0.00590\sym{***}&       0.991\sym{***}&       0.991\sym{***}&       0.991\sym{***}\\
+                    &  (0.000549)         &  (0.000874)         &   (0.00133)         &   (0.00133)         &   (0.00133)         \\
+[1em]
+log (Village Population)      &      0.0205         &      0.0931\sym{***}&       0.863\sym{***}&       0.863\sym{***}&       0.863\sym{***}\\
+                    &    (0.0139)         &    (0.0225)         &    (0.0317)         &    (0.0317)         &    (0.0317)         \\
+[1em]
+Village LPG Distance &    -0.00587\sym{*}  &     -0.0178\sym{***}&       1.008         &       1.026\sym{***}&       1.027\sym{***}\\
+                    &   (0.00265)         &   (0.00377)         &    (0.0100)         &   (0.00775)         &   (0.00665)         \\
+[1em]
+log (Village Town Distance) &     -0.0407\sym{**} &     -0.0812\sym{***}&       1.135\sym{**} &       1.135\sym{**} &       1.135\sym{**} \\
+                    &    (0.0147)         &    (0.0246)         &    (0.0471)         &    (0.0471)         &    (0.0471)         \\
+[1em]
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses, clustered by village}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}%
+}

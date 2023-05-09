@@ -1,0 +1,24 @@
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.46]{Figures/StateLPGTransition_Facet_Rural.png}
+\caption{\textbf{LPG use as a cooking fuel is increasing across rural India and in historically energy-poor study states.} Blue lines highlight the increases in LPG use as a cooking fuel in rural households in study states, while grey lines show the rest of states in India over the same time period. We combined several freely-available sources to provide historical state-level estimates of LPG use in rural Indian households: (i) the National Sample Survey provided estimates in 1992-1993, 1999-2000, 2004-2005, 2009-2010, and 2011-2012; (ii) the India National Family Health Survey provided estimates in 2015-2016; and (iii) ACCESS I and II provided study state estimates in 2015-2016 and 2017-2018.}
+\label{lpgtransition}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{Figures/Marginal_Effects/gologit.png}
+\caption{\textbf{Predicted probability of fuel stacking category from generalized ordered logit model.} Figure shows the comparison of predicted probability (0-1) of four levels of LPG adoption: exclusive LPG use, LPG as primary, LPG as secondary, and no LPG use. The sum of the probabilities is equal to 1.}
+\label{f:gologit_ME}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{Figures/Marginal_Effects/churdle_ME_option.png}
+\caption{\textbf{Average adjusted predictions of LPG selection and consumption from two-stage double-hurdle model with 95\% confidence intervals.}  \textbf{a.} The left panel shows the average-adjusted predicted probability of LPG adoption between 0 and 1 in the model's first stage with 95\% confidence intervals. \textbf{b.} The right panel shows the average-adjusted prediction of monthly consumption -- on condition of LPG adoption -- in grams in the model's second stage. Standard errors in the both model stages are clustered by village.}
+\label{churdle_ME}
+\end{figure}
+\efloatseparator
+ 

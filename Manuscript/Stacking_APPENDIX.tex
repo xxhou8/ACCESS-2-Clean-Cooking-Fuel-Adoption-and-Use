@@ -1,0 +1,225 @@
+\documentclass[11pt]{article}
+
+\usepackage{inputenc}
+\usepackage{graphicx}
+\usepackage[sort&compress,super]{natbib}
+\citestyle{naturemag}
+\usepackage{sgame}
+\usepackage{amssymb,amsmath}
+%\usepackage[nolists]{endfloat}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{chngpage}
+\usepackage{pdflscape}
+\usepackage{epstopdf}
+\usepackage{fullpage}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{dcolumn}
+\usepackage{subfigure}
+\usepackage{ae,aecompl}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+
+\subfigcapmargin = 0.1cm
+
+\usepackage{xr-hyper}
+\usepackage{hyperref}
+\externaldocument{Stacking}
+
+\makeatletter
+\newcommand{\noun}[1]{\textsc{#1}}
+
+\renewcommand{\thefigure}{A\arabic{figure}}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\refname}{Supporting Information: References}
+
+\renewcommand{\thesection}{A\arabic{section}}
+\renewcommand{\thesubsection}{A\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{A\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+\bibpunct{}{}{,}{s}{}{}
+
+\renewcommand{\thepage}{APP-\arabic{page}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%% A simple dot to overcome graphicx limitations
+
+\newcommand{\lyxdot}{.}
+\begin{document}
+
+\title{Jointly Modeling the Adoption, Consumption, and Exclusive Use of Clean Cooking Fuels in Rural India\\\textbf{Supporting Information}}
+
+\author{Carlos Gould\\Columbia University \and Xiaoxue Hou\\Johns Hopkins SAIS \and Jennifer Richmond\\University of Maryland \and Anjali Sharma\\University of Maryland \and Johannes Urpelainen\footnote{Corresponding author. Address: Rome Building, 4th Floor. 1619 Massachusetts Avenue, NW. Washington, DC 20036, USA. Tel: +1-734-757-0161. Email: JohannesU@jhu.edu.}\\Johns Hopkins SAIS}
+
+\maketitle
+
+\tableofcontents
+
+\clearpage
+
+\doublespacing
+
+\section{Supplementary Note}
+\label{sect:data}
+\subsection{Data}
+The Access to Clean Cooking Energy and Electricity -- Survey of States (ACCESS) is the largest energy access survey conducted in India. A total of 8,568 households in 2015 and 9,072 households in 2018 were sampled to evaluate energy and electricity patterns over time. The increase in sample size in the second wave is attributed to an addition of 504 households in three added districts in the state of Odisha to balance the sample distribution among states. The full listing, therefore, contains 17,640 sampled households. However, for the purposes of our analysis, only 8,563 households were able to be interviewed in 2015, and only a total of 9,008 observations are able to be used for 2018 because of missing data for specific, key variables needed to perform our estimations.
+
+The survey was designed to take 40-45 minutes to administer per household. The median time to complete the survey in the first wave was 37 minutes. The questionnaire included the following modules: socioeconomic information, a household's current source(s) of electricity (if any), satisfaction with the electricity service, cooking fuel access, household energy policy preferences, and willingness to pay for LPG or electricity.
+
+Sampling was done using a three-stage probability-proportional-to-size (PPS) survey design. Among six energy-deprived states (Bihar, Jharkhand, Madhya Pradesh, Odisha, Uttar Pradesh, and West Bengal), a total of 51 districts, 714 rural villages, and 17,640 households were sampled for each of the three stages. Due to practical constraints, only one district was sampled from each large administrative division within a state. The number of districts sampled per state is therefore proportional to the number of administrative divisions. This is true for each state except for Odisha in the second wave, which was oversampled to include three additional districts since there are fewer administrative divisions (three) compared to the other states. Using the 2011 Indian Census, villages were divided into small and large villages in each district based on population size to be able to distinguish any differences due to the size of the community. A total of 12 households were then sampled from each of the 714 rural villages among 51 districts. 
+
+From 2015 to 2018, a total 86\% of the same households were interviewed in the second wave. Table \ref{t:retention} summarizes retention rates by study state. Households were identified by enumerators using a village listing. Enumerators requested heads of households to be interviewed, and if the head of the household was unavailable another willing adult was interviewed. If no adult in the household was available, or if the household was no longer willing to participate, enumerators replaced the household by interviewing the fifth household to the right of the originally sampled household. Enumerators were recruited and trained using role-playing exercises. 
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.8}
+\input{"Tables/retention.tex"}
+\caption{Retention rates for the 2018 wave are shown here for household responses in each state. Note that only 504 households were sampled and interviewed in Odisha in 2015, and sampling for Odisha doubled to 1,008 for the 2018 wave; therefore, retention is based only on the 504 households from the first wave.}
+\label{t:retention}
+\end{table}
+
+Questionnaires were designed to be easily understood and were tested and piloted in different settings to ensure that the instrument was effective. Regular quality checks were also done during data collection to ensure that data was coded correctly. Whereas paper questionnaires were used in 2015, digital questionnaires were used on tablets using the software program SurveyCTO for the 2018 wave. The digital survey program delivered regular, automated quality control reports, and it also made tracking the time and location of each survey more efficient. Finally, each respondent was briefed on the intent and purpose of the study as well as the nature of the questions before agreeing to participate. Written or oral consent was required from each respondent, depending on the respondent's writing ability. 
+
+\clearpage
+
+\section{Methods}
+\label{sect:methods}
+First, the generalized ordered logit model (\textbf{gologit model}) is denoted as the following equation, as elsewhere \citep{Williams2016}:
+
+\begin{equation}
+P(y_{it}>j)=\frac{exp(\alpha_{j} + X_{it} \beta_j + \Omega_{it}\beta n_{j})}{1+[exp(\alpha_{j} + X_{it} \beta_j + \Omega_{it} \beta n_{j})]}, j=2,3...,M-1
+\end{equation}
+
+where $P(y_{it}>j)$ is the probability that the household's $y$ outcome category is greater than $j$ in time period $t$, in which $j$ is the collapsed category of $j=1$, $j=1,2$, or $j=1,2,3$. The $\alpha$ intercept term captures fixed effects, and differs across values of $j$ to allow for different regression lines. $M$ is the number of categories, which is four in this case. $X_{it} \beta_j$ is the main explanatory variable, logged monthly expenditure for household $i$ in wave $t$ with an estimated coefficient that may vary across values of $j$. The term $\Omega_{it}\beta n_j$ includes a set of control variables, including number of household members, education, caste, female head of household, religion, and age. The estimated coefficients for the control variables may remain constant across values of $j$ or may vary across values of $j$ depending on whether each variable meets the parallel lines assumption in the stepwise application of Wald tests in the gologit2 package in Stata. Standard errors are clustered at the village level. Fixed effects are included for the state and the survey wave (2015 and 2018).
+
+Second, our \textbf{double-hurdle model} is denoted by the following equation \citep{Garcia2013}:
+
+\begin{equation}
+\begin{split}
+log(L) = \sum_{y_i = 0}^{} \Big[ log \Big\{ 1-\Phi \Big( z_i \gamma, \frac{x_i \beta}{\sigma}, \rho \Big) \Big\} \Big] + \sum_{y_i > 0}^{} \Big( log \Big[ \Phi \Big\{ \frac{z_i \gamma + \frac{\rho}{\sigma}(y_i-x_i\beta) }{\sqrt{1-\rho^2}} \Big\} \Big] 
+\\
+- log [\sigma] +log \Big\{ \phi \Big( \frac{y_i - x_i \beta}{\sigma} \Big) \Big\} \Big)
+\end{split}
+\end{equation}
+
+where $y_i$ is either equal to $0$, which would exclude the observation to the selection stage, or $y_i > 0$, which would allow the observation to impact the second stage. The first stage excludes those households without access to LPG while elevating households with LPG access to the second stage to estimate levels of consumption. This is stated as the following restriction for the double hurdle model:
+
+\begin{equation}
+y_i = \left\{ \begin{array}{cl} x_i \beta + \epsilon_i & \textrm{if min} (x_i \beta +\epsilon_i, z_i\gamma+u_i) > 0 \\
+0 & \textrm{otherwise} \end{array}\right.
+\end{equation}
+
+If households select out of the model in stage one, the model for these households is essentially the same as the log likelihood function of a tobit model. For households that enter into the second stage, additional parameters are added to the tobit model to estimate the continuous outcome of LPG consumption.
+
+\clearpage
+
+\section{Suppementary Figures}
+\label{sect:robustness}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.66]{Figures/Descriptive_Statistics/LPGCategories20152018.png}
+\caption{Shifts in cooking fuel stacking patterns from ACCESS I (2015) to ACCESS II (2018).}
+\label{bar_fuel_stack}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{Figures/Descriptive_Statistics/distribution_lpg_log.pdf}
+\caption{Distribution of household LPG consumption in the study sample. We use logarithmic scale axes and transform the data by plus one accordingly. This figure shows a zero-inflated distribution and a near-normal distribution of our dependent variable. It gives intuitions on using two-stage regression to model household consumption of LPG. The first part is a binary logit model to predict the selection of LPG and the second part is a truncated Poisson model to predict the consumption of LPG.}
+\label{distribution_lpg_log}
+\end{figure}
+
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.38]{Figures/Marginal_Effects/gologit_village.png}
+\caption{\textbf{Predicted probability of fuel stacking category from generalized ordered logit model with village-level covariates.} Figure shows the comparison of predicted probability (0-1) of four levels of LPG adoption: exclusive LPG use, LPG as primary, LPG as secondary, and no LPG use. The sum of the probabilities is equal to 1.}
+	\label{gologit_village}
+\end{figure}
+
+
+\begin{figure}[h!]
+	\includegraphics[scale=0.30]{Figures/Marginal_Effects/churdle_ME_village.png}
+	\caption{\textbf{Average adjusted predictions of LPG selection and consumption from two-stage double-hurdle model with village-level covariates.}  \textbf{A.} The left panel shows the average-adjusted predicted probability of LPG adoption between 0 and 1 in the model's first stage with 95\% confidence intervals. \textbf{B.} The right panel shows the average-adjusted prediction of monthly consumption -- on condition of LPG adoption -- in kilograms in the model's second stage. Panels \textbf{C.} and \textbf{D.} repeat the same for the village-level covariates. Standard errors in the both model stages are clustered by village.} 
+	\label{churdle_ME_village}
+\end{figure}
+
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=1]{Figures/Marginal_Effects/churdle_selection.pdf}
+%\caption{Marginal Effects of Double Hurdle Model (First Stage: Selection). This figure shows an average marginal effect of significant variables in predicting LPG selection with a 95\% of confidence level. }
+%\label{churdle_selection}
+%\end{figure}
+
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=1]{Figures/Marginal_Effects/churdle_consumption.pdf}
+%\caption{Marginal Effects of Double Hurdle Model (Second Stage: Consumption). This figure shows an average marginal effect of significant variables in predicting LPG consumption with a 95\% of confidence level.}
+%\label{churdle_consumption}
+%\end{figure}
+
+
+\section{Supplementary Tables}
+\label{sect:additional}
+
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\input{"Tables/sum_dependent_2015.tex"}
+\caption{Summary Statistics of Dependent Variables (2015)}
+\label{t:sum_dependent_2015}
+\end{table}
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\input{"Tables/sum_dependent_2018.tex"}
+\caption{Summary Statistics of Dependent Variables (2018)}
+\label{t:sum_dependent_2018}
+\end{table}
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\input{"Tables/sum_stats_indep_2015.tex"}
+\caption{Summary Statistics of Independent Variables (2015)}
+\label{t:sum_indep_2015}
+\end{table}
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\input{"Tables/sum_stats_indep_2018.tex"}
+\caption{Summary Statistics of Independent Variables (2018)}
+\label{t:sum_indep_2018}
+\end{table}
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\input{"Tables/churdle&gologit.tex"}
+\caption{Double hurdle model (1) and generalized ordered logit model (2). This table shows the regression results from our two main models. Coefficients in model (1) show the impact of variables on the two stages of LPG selection and consumption. Coefficients in model (2) show the impact of variables on three combined outcomes of LPG adoption. The coefficients for model (2) have been converted to odds ratio. We use relaxed parallel assumptions on household size, education of more than 5th standard, and caste of ST in generalized ordered logit model.}
+\label{t:gologit&hurdle}
+\end{table}
+
+\begin{table}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\input{"Tables/churdle&gologit_app_full.tex"}
+\caption{Double hurdle model (1) and generalized ordered logit model (2) with three village-level covariates added: distance to nearest town in kilometers (logged, 2001 Census), village population (logged, 2011 Census), and average distance to LPG source in kilometers (among LPG users only). } 
+\label{t:gologit&hurdle_app_full}
+\end{table}
+
+\clearpage
+
+\bibliographystyle{naturemag}
+\bibliography{../cooking}
+
+\end{document}

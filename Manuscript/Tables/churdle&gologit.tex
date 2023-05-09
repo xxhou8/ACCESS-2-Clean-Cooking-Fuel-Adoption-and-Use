@@ -1,0 +1,48 @@
+\resizebox{\columnwidth}{!}{%
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{(1)}                              &\multicolumn{3}{c}{(2)}                                           \\
+                    &\multicolumn{2}{c}{Two-Stage Model}                        &\multicolumn{3}{c}{Generalized Ordered Logit Model}  \\
+                    &  Consumption         &Selection         &  No LPG         &No LPG        &  No LPG \&\\
+                    &          &         &          &\& Stacking     &   Stacking (LPG Secondary) \\
+                    &   &     &        & (LPG Secondary)     &  \& Stacking (LPG Primary)\\       
+                    
+\hline
+log (Monthly Expenditure)&       0.146\sym{***}&       0.430\sym{***}&        0.521\sym{***}&       0.543\sym{***}&       0.491\sym{***}\\
+                    &    (0.0152)         &    (0.0234)        &    (0.0254)         &    (0.0223)         &    (0.0182)         \\
+[1em]
+Household Size       &       0.0132\sym{***}&     -0.0152\sym{***}&       1.080\sym{***}&       1.042\sym{***}&       1.025\sym{***}\\
+                    &    (0.00253)         &   (0.00374)        &    (0.0120)         &   (0.00791)         &   (0.00634)         \\
+[1em]
+Education: Up to 5th Standard          &       0.120\sym{***}&       0.275\sym{***}&              0.670\sym{***}&       0.596\sym{***}&       0.625\sym{***}\\
+                    &    (0.0223)         &    (0.0279)            &    (0.0433)         &    (0.0299)         &    (0.0285)         \\
+[1em]                    
+Education: More than 5th Standard         &        0.231\sym{***}&       0.700\sym{***}&      0.321\sym{***}&       0.321\sym{***}&       0.321\sym{***}\\
+                    &    (0.0211)         &    (0.0319)       &    (0.0159)         &    (0.0159)         &    (0.0159)         \\
+[1em]
+Caste: OBC             &     -0.0968\sym{***}&      -0.235\sym{***}&              1.488\sym{***}&       1.488\sym{***}&       1.488\sym{***}\\
+                    &    (0.0212)         &    (0.0370)         &     (0.0855)         &    (0.0855)         &    (0.0855)         \\
+[1em]
+Caste: ST            &      -0.218\sym{***}&      -0.509\sym{***} &     2.192\sym{***}&       2.192\sym{***}&       2.192\sym{***}\\
+                    &    (0.0531)         &    (0.0682)         &   (0.256)         &     (0.256)         &     (0.256)         \\
+[1em]
+Caste: SC             &      -0.133\sym{***}&      -0.362\sym{***}&    1.773\sym{***}&       1.773\sym{***}&       1.773\sym{***}\\
+                    &    (0.0268)         &    (0.0452)         &     (0.125)         &     (0.125)         &     (0.125)         \\                 
+[1em]
+Gender: Woman   &      0.0374         &       0.192\sym{***} &       0.734\sym{***}&       0.734\sym{***}&       0.734\sym{***}\\
+                   &    (0.0298)         &    (0.0480)      &    (0.0536)         &    (0.0536)         &    (0.0536)        \\
+[1em]
+Gender: Both          &      0.0298         &       0.118\sym{***}  &         0.865\sym{*}  &       0.766\sym{***}&       0.804\sym{***}\\
+                    &     (0.0187)         &    (0.0292)         &    (0.0600)         &    (0.0398)         &    (0.0376)       \\
+[1em]
+Religion: Hindu        &     -0.0620\sym{*}  &      0.0371           &        1.067         &       1.099         &       0.950        \\
+                    &    (0.0313)         &    (0.0527)         &    (0.114)         &     (0.106)         &    (0.0836)         \\
+[1em]
+Decision Maker Age          &     0.00196\sym{***}&     0.00553\sym{***}&       0.991\sym{***}&       0.991\sym{***}&       0.991\sym{***}\\
+                    &  (0.000546)         &  (0.000813)         &   (0.00125)         &   (0.00125)         &   (0.00125)         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses, clustered by village}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}%
+}

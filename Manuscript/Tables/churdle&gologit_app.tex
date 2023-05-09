@@ -1,0 +1,53 @@
+\resizebox{\columnwidth}{!}{%
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{2}{c}{(1)}                              &\multicolumn{3}{c}{(2)}                                           \\
+                    &\multicolumn{2}{c}{Two-Stage Model}                        &\multicolumn{3}{c}{Generalized Ordered Logit Model}  \\
+                    &  Consumption         &Selection         &  Exclusive LPG         &Exclusive LPG        &  Exclusive LPG \&\\
+                    &          &         &          &\& Stacking     &   Stacking (LPG Primary) \\
+                    &   &     &        & (LPG Primary)     &  \& Stacking (LPG Secondary)\\       
+ \hline
+pmuy                &      -0.353\sym{***}&                     &                     &                     &                     \\
+                    &    (0.0237)         &                     &                     &                     &                     \\
+[1em]                   
+log (Monthly Expenditure)&      0.0890\sym{***}&       0.455\sym{***}&       2.036\sym{***}&       1.840\sym{***}&       1.918\sym{***}\\
+                    &    (0.0138)         &    (0.0299)          &    (0.0754)         &    (0.0756)         &    (0.0933)         \\
+[1em]
+Household Size       &      0.0155\sym{***}&     -0.0138\sym{**} &       0.976\sym{***}&       0.959\sym{***}&       0.926\sym{***}\\
+                    &   (0.00247)         &   (0.00464)         &   (0.00604)         &   (0.00728)         &    (0.0103)         \\
+[1em]
+Education: Up to 5th Standard           &      0.0764\sym{***}&       0.289\sym{***}&       1.599\sym{***}&       1.678\sym{***}&       1.494\sym{***}\\
+                    &    (0.0211)         &    (0.0398)      &    (0.0728)         &    (0.0841)         &    (0.0966)         \\
+[1em]                    
+Education: More than 5th Standard       &       0.129\sym{***}&       0.796\sym{***}&            3.118\sym{***}&       3.118\sym{***}&       3.118\sym{***}\\
+                    &    (0.0199)         &    (0.0435)       &     (0.155)         &     (0.155)         &     (0.155)         \\
+[1em]
+Caste: OBC             &     -0.0707\sym{***}&      -0.260\sym{***}&       0.672\sym{***}&       0.672\sym{***}&       0.672\sym{***}\\
+                     &    (0.0209)         &    (0.0443)         &    (0.0386)         &    (0.0386)         &    (0.0386)         \\
+[1em]
+Caste: ST             &      -0.137\sym{**} &      -0.469\sym{***} &       0.456\sym{***}&       0.456\sym{***}&       0.456\sym{***}\\
+                   &    (0.0459)         &    (0.0862)          &    (0.0533)         &    (0.0533)         &    (0.0533)         \\
+Caste: SC            &     -0.0412         &      -0.526\sym{***} &       0.564\sym{***}&       0.564\sym{***}&       0.564\sym{***}\\
+                    &    (0.0258)         &    (0.0587)         &    (0.0398)         &    (0.0398)         &    (0.0398)         \\
+[1em]
+Gender: Woman   &      0.0190         &       0.281\sym{***}&       1.362\sym{***}&       1.362\sym{***}&       1.362\sym{***}\\
+                    &    (0.0279)         &    (0.0675)         &    (0.0995)         &    (0.0995)         &    (0.0995)         \\
+[1em]
+Gender: Both          &      0.0116         &       0.165\sym{***} &       1.244\sym{***}&       1.305\sym{***}&       1.156\sym{*}  \\
+                    &    (0.0174)         &    (0.0428)        &    (0.0582)         &    (0.0678)         &    (0.0801)         \\
+[1em]
+Religion: Hindu       &     -0.0793\sym{**} &      0.0833           &       1.053         &       0.910         &       0.938         \\
+                    &    (0.0282)         &    (0.0614)        &    (0.0926)         &    (0.0882)         &     (0.100)         \\
+[1em]
+Decision Maker Age         &    0.000752         &     0.00638\sym{***}&       1.009\sym{***}&       1.009\sym{***}&       1.009\sym{***}\\
+                    &  (0.000510)         &   (0.00107)         &   (0.00127)         &   (0.00127)         &   (0.00127)         \\
+[1em] 
+LPG Connection Years &      0.0203\sym{***}&                     &                     &                     &                     \\
+                    &   (0.00169)         &                     &                     &                     &                     \\
+                  
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses, clustered by village}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}%
+}

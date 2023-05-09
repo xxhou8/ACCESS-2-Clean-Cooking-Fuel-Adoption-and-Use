@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Stacking.aux
+The style file: naturemag.bst
+Database file #1: ../cooking.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Repeated entry---line 927 of file ../cooking.bib
+ : @article{Beheraetal2015
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "CAG2019"
+Warning--I didn't find a database entry for "Dickinsonetal2019"
+Warning--empty note in Chowdhuryetal2019a
+Warning--empty note in MoPNG2018
+Warning--empty year in Karetal2019a
+Warning--empty author in TheTimesIndia2019
+Warning--empty note in TheTimesIndia2019
+Warning--empty year in Karetal2019b
+You've used 73 entries,
+            2348 wiz_defined-function locations,
+            1461 strings with 52376 characters,
+and the built_in function-call counts, 27559 in all, are:
+= -- 1993
+> -- 725
+< -- 0
++ -- 362
+- -- 181
+* -- 3377
+:= -- 3098
+add.period$ -- 226
+call.type$ -- 73
+change.case$ -- 84
+chr.to.int$ -- 0
+cite$ -- 79
+duplicate$ -- 2505
+empty$ -- 2461
+format.name$ -- 241
+if$ -- 5467
+int.to.chr$ -- 0
+int.to.str$ -- 73
+missing$ -- 568
+newline$ -- 380
+num.names$ -- 74
+pop$ -- 404
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 460
+stack$ -- 0
+substring$ -- 1200
+swap$ -- 2468
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 171
+width$ -- 75
+write$ -- 807
+(There was 1 error message)

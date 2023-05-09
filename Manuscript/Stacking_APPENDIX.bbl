@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Williams2016}
+\bibinfo{author}{Williams, R.}
+\newblock \bibinfo{title}{Understanding and interpreting generalized ordered
+  logit models}.
+\newblock \emph{\bibinfo{journal}{The Journal of Mathematical Sociology}}
+  \textbf{\bibinfo{volume}{40}} (\bibinfo{year}{2016}).
+
+\bibitem{Garcia2013}
+\bibinfo{author}{Garc\'{i}a, B.}
+\newblock \bibinfo{title}{Implementation of a double-hurdle model}.
+\newblock \emph{\bibinfo{journal}{The Stata Journal}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{776--794}
+  (\bibinfo{year}{2013}).
+
+\end{thebibliography}

@@ -1,0 +1,597 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Stanawayetal2018}
+\bibinfo{author}{Stanaway, J.~D.} \emph{et~al.}
+\newblock \bibinfo{title}{Global, regional, and national comparative risk
+  assessment of 84 behavioural, environmental and occupational, and metabolic
+  risks or clusters of risks for 195 countries and territories,
+  1990{\textendash}2017: A systematic analysis for the {Global Burden of
+  Disease} study 2017}.
+\newblock \emph{\bibinfo{journal}{The Lancet}} \textbf{\bibinfo{volume}{392}},
+  \bibinfo{pages}{1923--1994} (\bibinfo{year}{2018}).
+
+\bibitem{HEI2018}
+\bibinfo{author}{{Health Effects Institute}}.
+\newblock \bibinfo{title}{State of global air 2018} (\bibinfo{year}{2018}).
+\newblock
+  \urlprefix\url{https://www.stateofglobalair.org/sites/default/files/soga-2018-report.pdf}.
+\newblock \bibinfo{note}{Special Report}.
+
+\bibitem{Bondetal2004}
+\bibinfo{author}{Bond, T.}, \bibinfo{author}{Venkataraman, C.} \&
+  \bibinfo{author}{Masera, O.}
+\newblock \bibinfo{title}{Global atmospheric impacts of residential fuels}.
+\newblock \emph{\bibinfo{journal}{Energy for Sustainable Development}}
+  \textbf{\bibinfo{volume}{8}}, \bibinfo{pages}{20--32} (\bibinfo{year}{2004}).
+
+\bibitem{Bailisetal2015}
+\bibinfo{author}{Bailis, R.}, \bibinfo{author}{Drigo, R.},
+  \bibinfo{author}{Ghilardi, A.} \& \bibinfo{author}{Masera, O.}
+\newblock \bibinfo{title}{The carbon footprint of traditional woodfuels}.
+\newblock \emph{\bibinfo{journal}{Nature Climate Change}}
+  \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{266--272}
+  (\bibinfo{year}{2015}).
+
+\bibitem{Rosenthaletal2018}
+\bibinfo{author}{Rosenthal, J.}, \bibinfo{author}{Quinn, A.},
+  \bibinfo{author}{Grieshop, A.~P.}, \bibinfo{author}{Pillarisetti, A.} \&
+  \bibinfo{author}{Glass, R.~I.}
+\newblock \bibinfo{title}{Clean cooking and the {SDGs}: Integrated analytical
+  approaches to guide energy interventions for health and environment goals}.
+\newblock \emph{\bibinfo{journal}{Energy for Sustainable Development}}
+  \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{152--159}
+  (\bibinfo{year}{2018}).
+
+\bibitem{Bonjouretal2013}
+\bibinfo{author}{Bonjour, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Solid fuel use for household cooking: Country and
+  regional estimates for 1980-2010}.
+\newblock \emph{\bibinfo{journal}{Environmental Health Perspectives}}
+  \textbf{\bibinfo{volume}{121}}, \bibinfo{pages}{784} (\bibinfo{year}{2013}).
+
+\bibitem{Balakrishnanetal2019}
+\bibinfo{author}{Balakrishnan, K.} \emph{et~al.}
+\newblock \bibinfo{title}{The impact of air pollution on deaths, disease
+  burden, and life expectancy across the states of {India}: The {Global Burden
+  of Disease} study 2017}.
+\newblock \emph{\bibinfo{journal}{The Lancet Planetary Health}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{e26--e39}
+  (\bibinfo{year}{2019}).
+
+\bibitem{Chowdhuryetal2019a}
+\bibinfo{author}{Chowdhury, S.}, \bibinfo{author}{Chafe, Z.~A.},
+  \bibinfo{author}{Pillarisetti, A.}, \bibinfo{author}{Lelieveld, J.} \&
+  \bibinfo{author}{Dey, S.}
+\newblock \bibinfo{title}{The contribution of household fuels to ambient air
+  pollution in {India}}.
+\newblock
+  \urlprefix\url{https://static1.squarespace.com/static/59f2a2038a02c746600f6bbb/t/5cfe7c5e8ce3aa0001af5cae/1560181855319/HAP-AAP+CCAPC+brief-May+2019+%281%29.pdf}.
+
+\bibitem{Popeetal2017}
+\bibinfo{author}{Pope, D.}, \bibinfo{author}{Bruce, N.},
+  \bibinfo{author}{Dherani, M.}, \bibinfo{author}{Jagoe, K.} \&
+  \bibinfo{author}{Rehfuess, E.}
+\newblock \bibinfo{title}{Real-life effectiveness of ``improved" stoves and
+  clean fuels in reducing {PM$_{2.5}$} and {CO}: Systematic review and
+  meta-analysis}.
+\newblock \emph{\bibinfo{journal}{Environment International}}
+  \textbf{\bibinfo{volume}{101}}, \bibinfo{pages}{7--18}
+  (\bibinfo{year}{2017}).
+
+\bibitem{GouldUrpelainen2018}
+\bibinfo{author}{Gould, C.~F.} \& \bibinfo{author}{Urpelainen, J.}
+\newblock \bibinfo{title}{{LPG} as a clean cooking fuel: {A}doption, use, and
+  impact in rural {I}ndia}.
+\newblock \emph{\bibinfo{journal}{Energy Policy}}
+  \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{395--408}
+  (\bibinfo{year}{2018}).
+
+\bibitem{RuizMercadoMasera2015}
+\bibinfo{author}{Ruiz-Mercado, I.} \& \bibinfo{author}{Masera, O.}
+\newblock \bibinfo{title}{Patterns of stove use in the context of
+  fuel{\textendash}device stacking: Rationale and implications}.
+\newblock \emph{\bibinfo{journal}{{EcoHealth}}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{42--56} (\bibinfo{year}{2015}).
+
+\bibitem{Pillarisettietal2014}
+\bibinfo{author}{Pillarisetti, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Patterns of stove usage after introduction of an
+  advanced cookstove: The long-term application of household sensors}.
+\newblock \emph{\bibinfo{journal}{Environmental Science {\&} Technology}}
+  \textbf{\bibinfo{volume}{48}}, \bibinfo{pages}{14525--14533}
+  (\bibinfo{year}{2014}).
+
+\bibitem{JohnsonChiang2015}
+\bibinfo{author}{Johnson, M.~A.} \& \bibinfo{author}{Chiang, R.~A.}
+\newblock \bibinfo{title}{Quantitative guidance for stove usage and performance
+  to achieve health and environmental targets}.
+\newblock \emph{\bibinfo{journal}{Environmental Health Perspectives}}
+  \textbf{\bibinfo{volume}{123}}, \bibinfo{pages}{820--826}
+  (\bibinfo{year}{2015}).
+
+\bibitem{MullerYan2018}
+\bibinfo{author}{Muller, C.} \& \bibinfo{author}{Yan, H.}
+\newblock \bibinfo{title}{Household fuel use in developing countries: {R}eview
+  of theory and evidence}.
+\newblock \emph{\bibinfo{journal}{Energy Economics}}
+  \textbf{\bibinfo{volume}{70}}, \bibinfo{pages}{429--439}
+  (\bibinfo{year}{2018}).
+
+\bibitem{Quinnetal2018}
+\bibinfo{author}{Quinn, A.~K.} \emph{et~al.}
+\newblock \bibinfo{title}{An analysis of efforts to scale up clean household
+  energy for cooking around the world}.
+\newblock \emph{\bibinfo{journal}{Energy for Sustainable Development}}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{1--10} (\bibinfo{year}{2018}).
+
+\bibitem{Puzzoloetal2016}
+\bibinfo{author}{Puzzolo, E.}, \bibinfo{author}{Pope, D.},
+  \bibinfo{author}{Stanistreet, D.}, \bibinfo{author}{Rehfuess, E.~A.} \&
+  \bibinfo{author}{Bruce, N.~G.}
+\newblock \bibinfo{title}{Clean fuels for resource-poor settings: A systematic
+  review of barriers and enablers to adoption and sustained use}.
+\newblock \emph{\bibinfo{journal}{Environmental Research}}
+  \textbf{\bibinfo{volume}{146}}, \bibinfo{pages}{218--234}
+  (\bibinfo{year}{2016}).
+
+\bibitem{LewisPattanayak2012}
+\bibinfo{author}{Lewis, J.~J.} \& \bibinfo{author}{Pattanayak, S.~K.}
+\newblock \bibinfo{title}{Who adopts improved fuels and cookstoves? {A}
+  systematic review}.
+\newblock \emph{\bibinfo{journal}{Environmental Health Perspectives}}
+  \textbf{\bibinfo{volume}{120}}, \bibinfo{pages}{637--645}
+  (\bibinfo{year}{2012}).
+
+\bibitem{Carteretal2019}
+\bibinfo{author}{Carter, E.} \emph{et~al.}
+\newblock \bibinfo{title}{Household transitions to clean energy in a
+  multiprovincial cohort study in china}.
+\newblock \emph{\bibinfo{journal}{Nature Sustainability}}
+  (\bibinfo{year}{2019}).
+
+\bibitem{ChoumertNkoloetal2019}
+\bibinfo{author}{Choumert-Nkolo, J.}, \bibinfo{author}{Motel, P.~C.} \&
+  \bibinfo{author}{Roux, L.~L.}
+\newblock \bibinfo{title}{Stacking up the ladder: A panel data analysis of
+  tanzanian household energy choices}.
+\newblock \emph{\bibinfo{journal}{World Development}}
+  \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{222--235}
+  (\bibinfo{year}{2019}).
+
+\bibitem{Alemetal2016}
+\bibinfo{author}{Alem, Y.}, \bibinfo{author}{Beyene, A.~D.},
+  \bibinfo{author}{Köhlin, G.} \& \bibinfo{author}{Mekonnen, A.}
+\newblock \bibinfo{title}{Modeling household cooking fuel choice: A panel
+  multinomial logit approach}.
+\newblock \emph{\bibinfo{journal}{Energy Economics}}
+  \textbf{\bibinfo{volume}{59}}, \bibinfo{pages}{129--137}
+  (\bibinfo{year}{2016}).
+
+\bibitem{Lametal2012}
+\bibinfo{author}{Lam, N.~L.}, \bibinfo{author}{Smith, K.~R.},
+  \bibinfo{author}{Gauthier, A.} \& \bibinfo{author}{Bates, M.~N.}
+\newblock \bibinfo{title}{Kerosene: A review of household uses and their
+  hazards in low- and middle-income countries}.
+\newblock \emph{\bibinfo{journal}{Journal of Toxicology and Environmental
+  Health, Part B}} \textbf{\bibinfo{volume}{15}}, \bibinfo{pages}{396--432}
+  (\bibinfo{year}{2012}).
+
+\bibitem{Tripathietal2020}
+\bibinfo{author}{Tripathi, S.}, \bibinfo{author}{Mani, S.},
+  \bibinfo{author}{Jain, A.} \& \bibinfo{author}{Gould, C.~F.}
+\newblock \bibinfo{title}{What determines rural {I}ndian households' transition
+  towards the sustained use of lpg for cooking?}
+\newblock \emph{\bibinfo{journal}{Nature Energy}}  (\bibinfo{year}{2019}).
+
+\bibitem{Kumar2016}
+\bibinfo{author}{Kumar, P.}, \bibinfo{author}{Rao, R.~K.} \&
+  \bibinfo{author}{Reddy, N.~H.}
+\newblock \bibinfo{title}{Sustained uptake of {LPG} as cleaner cooking fuel in
+  rural {India}: {R}ole of affordability, accessibility, and awareness}.
+\newblock \emph{\bibinfo{journal}{World Development Perspectives}}
+  \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{33--37} (\bibinfo{year}{2016}).
+
+\bibitem{MoPNG2018}
+\bibinfo{author}{{Ministry of Petroleum and Natural Gas}}.
+\newblock \bibinfo{title}{{Pradhan Mantri Ujjwala Yojana} - {R}evised
+  guidelines} (\bibinfo{year}{2018}).
+\newblock
+  \urlprefix\url{http://petroleum.nic.in/sites/default/files/revujscheme.pdf}.
+
+\bibitem{Jainetal2018}
+\bibinfo{author}{Jain, A.}, \bibinfo{author}{Agrawal, S.} \&
+  \bibinfo{author}{Ganesan, K.}
+\newblock \bibinfo{title}{Lessons from the world's largest subsidy benefit
+  transfer scheme}.
+\newblock In \bibinfo{editor}{Asselt, H.~V.} \& \bibinfo{editor}{Skovgaard, J.}
+  (eds.) \emph{\bibinfo{booktitle}{The Politics of Fossil Fuel Subsidies and
+  Their Reform}}, \bibinfo{pages}{212--228} (\bibinfo{publisher}{Cambridge
+  University Press}, \bibinfo{year}{2018}).
+
+\bibitem{MOPNG2019}
+\bibinfo{author}{{Ministry of Petroleum and Natural Gas}}.
+\newblock \bibinfo{title}{Lpg profile as on october 1, 2019}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://www.ppac.gov.in/WriteReadData/Reports/201911220459272617502WebVersionLPGProfile1.10.2019.pdf}.
+\newblock \bibinfo{note}{Petroleum Planning and Analysis Cell Monthly Data on
+  LPG Marketing}.
+
+\bibitem{NationalSampleSurvey2015}
+\bibinfo{author}{{National Sample Survey Office MOSPI Government of India}}.
+\newblock \bibinfo{title}{Energy sources of {India} households for cooking and
+  lighting, 2011-12} (\bibinfo{year}{2015}).
+\newblock
+  \urlprefix\url{http://mospi.nic.in/sites/default/files/publication_reports/nss_report_567.pdf}.
+\newblock \bibinfo{note}{Report No. 567}.
+
+\bibitem{MOSPI2019}
+\bibinfo{author}{{Ministry of Statistics and Programme Implementation}} \&
+  \bibinfo{author}{{Government of India}}.
+\newblock \bibinfo{title}{Drinking water, sanitation, hygiene and housing
+  condition in india, nss 76th round (july - december 2018)}
+  (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://pib.gov.in/Pressreleaseshare.aspx?PRID=1593252}.
+\newblock \bibinfo{note}{National Sample Survey Report No. 584}.
+
+\bibitem{Dabadgeetal2018}
+\bibinfo{author}{Dabadge, A.}, \bibinfo{author}{Sreenivas, A.} \&
+  \bibinfo{author}{Josey, A.}
+\newblock \bibinfo{title}{{What Has the {Pradhan Mantri Ujjwala Yojana}
+  Achieved So Far?}}
+\newblock \emph{\bibinfo{journal}{Economic and Political Weekly}}
+  \textbf{\bibinfo{volume}{53}}, \bibinfo{pages}{69--75}
+  (\bibinfo{year}{2018}).
+
+\bibitem{MoPNG2019b}
+\bibinfo{author}{{Ministry of Petroleum and Natural Gas}}.
+\newblock \bibinfo{title}{State-wise {PMUY} connections released}.
+\newblock
+  \urlprefix\url{http://www.pmujjwalayojana.com/released-connections.html}.
+\newblock \bibinfo{note}{{Pradhan Mantri Ujjwala Yojana} Official Website}.
+
+\bibitem{Karetal2019a}
+\bibinfo{author}{Kar, A.}, \bibinfo{author}{Singh, D.},
+  \bibinfo{author}{Pachauri, S.}, \bibinfo{author}{Bailis, R.} \&
+  \bibinfo{author}{Zerriffi, H.}
+\newblock \bibinfo{title}{Ujjwala at 6 crores: Impact on cooking energy
+  transition and climate change}.
+\newblock In \emph{\bibinfo{booktitle}{The Ujjwala Saga - Unending Happiness \&
+  Health}}, \bibinfo{pages}{16--21} (\bibinfo{publisher}{Ministry of Petroleum
+  and Natural Gas, Government of India}).
+\newblock \urlprefix\url{http://pure.iiasa.ac.at/id/eprint/15741/}.
+
+\bibitem{TheTimesIndia2019}
+\bibinfo{title}{Ujjwala scheme: 82\% of {Ujjwala} families return for {LPG}
+  refill}.
+\newblock
+  \urlprefix\url{https://timesofindia.indiatimes.com/india/82-of-ujjwala-families-return-for-lpg-refill/articleshow/68327624.cms}.
+
+\bibitem{Karetal2019b}
+\bibinfo{author}{Kar, A.}, \bibinfo{author}{Pachauri, S.},
+  \bibinfo{author}{Bailis, R.} \& \bibinfo{author}{Zerriffi, H.}
+\newblock \bibinfo{title}{Using sales data to assess cooking gas adoption and
+  the impact of {India's} {Ujjwala} programme in rural {Karnataka}}.
+\newblock \emph{\bibinfo{journal}{Nature Energy}} \bibinfo{pages}{1}.
+
+\bibitem{Gouldetal2020}
+\bibinfo{author}{Gould, C.~F.} \emph{et~al.}
+\newblock \bibinfo{title}{Household fuel mixes in peri-urban and rural ecuador:
+  Explaining the context of {LPG}, patterns of continued firewood use, and the
+  challenges of induction cooking}.
+\newblock \emph{\bibinfo{journal}{Energy Policy}}
+  \textbf{\bibinfo{volume}{136}}, \bibinfo{pages}{111053}
+  (\bibinfo{year}{2020}).
+
+\bibitem{Dandonaetal2017}
+\bibinfo{author}{Dandona, L.} \emph{et~al.}
+\newblock \bibinfo{title}{Nations within a nation: Variations in
+  epidemiological transition across the states of {India,}
+  1990{\textendash}2016 in the {Global Burden of Disease} study}.
+\newblock \emph{\bibinfo{journal}{The Lancet}} \textbf{\bibinfo{volume}{390}},
+  \bibinfo{pages}{2437--2460} (\bibinfo{year}{2017}).
+
+\bibitem{Chowdhuryetal2019b}
+\bibinfo{author}{Chowdhury, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Indian annual ambient air quality standard is
+  achievable by completely mitigating emissions from household sources}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \textbf{\bibinfo{volume}{116}}, \bibinfo{pages}{10711--10716}
+  (\bibinfo{year}{2019}).
+
+\bibitem{Leach1992}
+\bibinfo{author}{Leach, G.}
+\newblock \bibinfo{title}{The energy transition}.
+\newblock \emph{\bibinfo{journal}{Energy Policy}}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{116--123}
+  (\bibinfo{year}{1992}).
+
+\bibitem{Pattanayaketal2019}
+\bibinfo{author}{Pattanayak, S.~K.} \emph{et~al.}
+\newblock \bibinfo{title}{Experimental evidence on promotion of electric and
+  improved biomass cookstoves}.
+\newblock \emph{\bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}} \bibinfo{pages}{201808827} (\bibinfo{year}{2019}).
+
+\bibitem{Menghwanietal2019}
+\bibinfo{author}{Menghwani, V.} \emph{et~al.}
+\newblock \bibinfo{title}{Determinants of cookstoves and fuel choice among
+  rural households in {India}}.
+\newblock \emph{\bibinfo{journal}{{EcoHealth}}} \textbf{\bibinfo{volume}{16}},
+  \bibinfo{pages}{21--60} (\bibinfo{year}{2019}).
+
+\bibitem{Pillarisettietal2019}
+\bibinfo{author}{Pillarisetti, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Promoting {LPG} usage during pregnancy: A pilot study
+  in rural {Maharashtra, India}}.
+\newblock \emph{\bibinfo{journal}{Environment International}}
+  \textbf{\bibinfo{volume}{127}}, \bibinfo{pages}{540--549}
+  (\bibinfo{year}{2019}).
+
+\bibitem{Shankaretal2014}
+\bibinfo{author}{Shankar, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Maximizing the benefits of improved cookstoves:
+  Moving from acquisition to correct and consistent use}.
+\newblock \emph{\bibinfo{journal}{Global Health: Science and Practice}}
+  \textbf{\bibinfo{volume}{2}}, \bibinfo{pages}{268--274}
+  (\bibinfo{year}{2014}).
+
+\bibitem{Manietal2018}
+\bibinfo{author}{Mani, S.} \emph{et~al.}
+\newblock \bibinfo{title}{Access to clean cooking energy and electricity:
+  {Survey} of states in {India} 2018} (\bibinfo{year}{2018}).
+\newblock \bibinfo{note}{Council on Energy, Environment and Water; Initiative
+  for Sustainable Energy Policy; National University of Singapore
+  (forthcoming)}.
+
+\bibitem{Aklinetal2016}
+\bibinfo{author}{Aklin, M.}, \bibinfo{author}{Cheng, C.},
+  \bibinfo{author}{Urpelainen, J.}, \bibinfo{author}{Ganesan, K.} \&
+  \bibinfo{author}{Jain, A.}
+\newblock \bibinfo{title}{Factors affecting household satisfaction with
+  electricity supply in rural {India}}.
+\newblock \emph{\bibinfo{journal}{Nature Energy}} \textbf{\bibinfo{volume}{1}}
+  (\bibinfo{year}{2016}).
+
+\bibitem{Klasen2000}
+\bibinfo{author}{Klasen, S.}
+\newblock \bibinfo{title}{Measuring poverty and deprivation in {South Africa}}.
+\newblock \emph{\bibinfo{journal}{Review of Income and Wealth}}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{33--58}
+  (\bibinfo{year}{2000}).
+
+\bibitem{SaxenaBhattacharya2018}
+\bibinfo{author}{Saxena, V.} \& \bibinfo{author}{Bhattacharya, P.}
+\newblock \bibinfo{title}{Inequalities in lpg and electricity consumption in
+  {India}: The role of caste, tribe, and religion}.
+\newblock \emph{\bibinfo{journal}{Energy for Sustainable Development}}
+  \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{44--53}
+  (\bibinfo{year}{2018}).
+
+\bibitem{Heltberg2004}
+\bibinfo{author}{Heltberg, R.}
+\newblock \bibinfo{title}{Fuel switching: Evidence from eight developing
+  countries}.
+\newblock \emph{\bibinfo{journal}{Energy Economics}}
+  \textbf{\bibinfo{volume}{26}} (\bibinfo{year}{2004}).
+
+\bibitem{GuptaKohlin2006}
+\bibinfo{author}{Gupta, G.} \& \bibinfo{author}{K\"{o}hlin, G.}
+\newblock \bibinfo{title}{Preferences for domestic fuel: Analysis with
+  socio-economic factors and rankings in {Kolkata}, {India}}.
+\newblock \emph{\bibinfo{journal}{Ecological Economics}}
+  \textbf{\bibinfo{volume}{57}} (\bibinfo{year}{2006}).
+
+\bibitem{Farsietal2007}
+\bibinfo{author}{Farsi, M.}, \bibinfo{author}{Filippini, M.} \&
+  \bibinfo{author}{Pachauri, S.}
+\newblock \bibinfo{title}{Fuel choices in urban {India} households}.
+\newblock \emph{\bibinfo{journal}{Ecological Economics}}
+  \textbf{\bibinfo{volume}{12}} (\bibinfo{year}{2007}).
+
+\bibitem{RaoReddy2007}
+\bibinfo{author}{Rao, M.~N.} \& \bibinfo{author}{Reddy, B.~S.}
+\newblock \bibinfo{title}{Variations in energy use by {Indian} households: An
+  analysis of micro level data}.
+\newblock \emph{\bibinfo{journal}{Energy}} \textbf{\bibinfo{volume}{32}},
+  \bibinfo{pages}{143--153} (\bibinfo{year}{2007}).
+
+\bibitem{PandeyChaubal2011}
+\bibinfo{author}{Pandey, V.~L.} \& \bibinfo{author}{Chaubal, A.}
+\newblock \bibinfo{title}{Comprehending household cooking energy choice in
+  rural {India}}.
+\newblock \emph{\bibinfo{journal}{Biomass and Bioenergy}}
+  \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{4724--4731}
+  (\bibinfo{year}{2011}).
+
+\bibitem{BaiyegunhiHassan2014}
+\bibinfo{author}{Baiyegunhi, L.} \& \bibinfo{author}{Hassan, M.}
+\newblock \bibinfo{title}{Rural household fuel energy transition: Evidence from
+  {Giwa LGA Kaduna State, Nigeria}}.
+\newblock \emph{\bibinfo{journal}{Energy for Sustainable Development}}
+  \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{30--35}
+  (\bibinfo{year}{2014}).
+
+\bibitem{Chenetal2006}
+\bibinfo{author}{Chen, L.}, \bibinfo{author}{Heerink, N.} \&
+  \bibinfo{author}{van~den Berg, M.}
+\newblock \bibinfo{title}{Energy consumption in rural {China}: A household
+  model for three villages in {Jiangxi Province}}.
+\newblock \emph{\bibinfo{journal}{Ecological Economics}}
+  \textbf{\bibinfo{volume}{58}}, \bibinfo{pages}{407--420}
+  (\bibinfo{year}{2006}).
+
+\bibitem{Dreibelbisetal2013}
+\bibinfo{author}{Dreibelbis, R.} \emph{et~al.}
+\newblock \bibinfo{title}{The integrated behavioural model for water,
+  sanitation, and hygiene: A systematic review of behavioural models and a
+  framework for designing and evaluating behaviour change interventions in
+  infrastructure-restricted settings}.
+\newblock \emph{\bibinfo{journal}{{BMC} Public Health}}
+  \textbf{\bibinfo{volume}{13}} (\bibinfo{year}{2013}).
+
+\bibitem{Dalabaetal2018}
+\bibinfo{author}{Dalaba, M.} \emph{et~al.}
+\newblock \bibinfo{title}{Liquified petroleum gas {(LPG)} supply and demand for
+  cooking in northern {Ghana}}.
+\newblock \emph{\bibinfo{journal}{EcoHealth}} \textbf{\bibinfo{volume}{15}},
+  \bibinfo{pages}{716--728} (\bibinfo{year}{2018}).
+
+\bibitem{Wolfetal2017}
+\bibinfo{author}{Wolf, J.}, \bibinfo{author}{M\"{a}usezahl, D.},
+  \bibinfo{author}{Verastegui, H.} \& \bibinfo{author}{Hartinger, S.~M.}
+\newblock \bibinfo{title}{Adoption of clean cookstoves after improved solid
+  fuel stove programme exposure: A cross-sectional study in three {Peruvian}
+  {Andean} regions}.
+\newblock \emph{\bibinfo{journal}{International Journal of Environmental
+  Research and Public Health}} \textbf{\bibinfo{volume}{14}}
+  (\bibinfo{year}{2017}).
+
+\bibitem{Abebaw2008}
+\bibinfo{author}{Abebaw, D.}
+\newblock \bibinfo{title}{Household determinants of fuelwood choice in urban
+  {Ethiopia}: a case study of {Jimma Town}}.
+\newblock \emph{\bibinfo{journal}{The Journal of Developing Areas}}
+  \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{117--126}
+  (\bibinfo{year}{2008}).
+
+\bibitem{DesaiDubey2012}
+\bibinfo{author}{Desai, S.} \& \bibinfo{author}{Dubey, A.}
+\newblock \bibinfo{title}{Caste in 21st century {India}: Competing narratives}.
+\newblock \emph{\bibinfo{journal}{Economic and Political Weekly}}
+  \textbf{\bibinfo{volume}{46}}, \bibinfo{pages}{40} (\bibinfo{year}{2012}).
+
+\bibitem{Kumar2017}
+\bibinfo{author}{Kumar, P.}, \bibinfo{author}{Dhand, A.},
+  \bibinfo{author}{Tabak, R.}, \bibinfo{author}{Brownson, R.} \&
+  \bibinfo{author}{Yadama, G.}
+\newblock \bibinfo{title}{Adoption and sustained use of cleaner cooking fuels
+  in rural {India}: {A} case control study protocol to understand household,
+  network, and organizational drivers}.
+\newblock \emph{\bibinfo{journal}{Archives of Public Health}}
+  \textbf{\bibinfo{volume}{75}}, \bibinfo{pages}{70} (\bibinfo{year}{2017}).
+
+\bibitem{Beheraetal2015}
+\bibinfo{author}{Behera, B.}, \bibinfo{author}{Rahut, D.~B.},
+  \bibinfo{author}{Jeetendra, A.} \& \bibinfo{author}{Ali, A.}
+\newblock \bibinfo{title}{Household collection and use of biomass energy
+  sources in south {A}sia}.
+\newblock \emph{\bibinfo{journal}{Energy}} \textbf{\bibinfo{volume}{85}},
+  \bibinfo{pages}{468--480} (\bibinfo{year}{2015}).
+
+\bibitem{Rahutetal2014}
+\bibinfo{author}{Rahut, D.~B.}, \bibinfo{author}{Das, S.},
+  \bibinfo{author}{Groote, H.~D.} \& \bibinfo{author}{Behera, B.}
+\newblock \bibinfo{title}{Determinants of household energy use in {Bhutan}}.
+\newblock \emph{\bibinfo{journal}{Energy}} \textbf{\bibinfo{volume}{69}},
+  \bibinfo{pages}{661--672} (\bibinfo{year}{2014}).
+
+\bibitem{GouldUrpelainen2019}
+\bibinfo{author}{Gould, C.~F.} \& \bibinfo{author}{Urpelainen, J.}
+\newblock \bibinfo{title}{The gendered nature of liquefied petroleum gas stove
+  adoption and use in rural {I}ndia}.
+\newblock \emph{\bibinfo{journal}{The Journal of Development Studies}}
+  \bibinfo{pages}{1--21} (\bibinfo{year}{2019}).
+
+\bibitem{BorooahIyer2005}
+\bibinfo{author}{Borooah, V.~K.} \& \bibinfo{author}{Iyer, S.}
+\newblock \bibinfo{title}{Vidya, veda, and varna: The influence of religion and
+  caste on education in rural {India}}.
+\newblock \emph{\bibinfo{journal}{Journal of Development Studies}}
+  \textbf{\bibinfo{volume}{41}}, \bibinfo{pages}{1369--1404}
+  (\bibinfo{year}{2005}).
+
+\bibitem{Bhojvaidetal2014}
+\bibinfo{author}{Bhojvaid, V.} \emph{et~al.}
+\newblock \bibinfo{title}{How do people in rural {India} perceive improved
+  stoves and clean fuel? {Evidence} from {Uttar Pradesh} and {Uttarakhand}}.
+\newblock \emph{\bibinfo{journal}{International Journal of Environmental
+  Research and Public Health}} \textbf{\bibinfo{volume}{11}},
+  \bibinfo{pages}{1341--1358} (\bibinfo{year}{2014}).
+
+\bibitem{Aklinetal2018}
+\bibinfo{author}{Aklin, M.}, \bibinfo{author}{Cheng, C.-y.} \&
+  \bibinfo{author}{Urpelainen, J.}
+\newblock \bibinfo{title}{Geography, community, household: {Adoption} of
+  distributed solar power across {India}}.
+\newblock \emph{\bibinfo{journal}{Energy for Sustainable Development}}
+  \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{54--63}
+  (\bibinfo{year}{2018}).
+
+\bibitem{Houetal2017}
+\bibinfo{author}{Hou, B.-D.} \emph{et~al.}
+\newblock \bibinfo{title}{Cooking fuel choice in rural {China}: Results from
+  microdata}.
+\newblock \emph{\bibinfo{journal}{Journal of Cleaner Production}}
+  \textbf{\bibinfo{volume}{142}}, \bibinfo{pages}{538--547}
+  (\bibinfo{year}{2017}).
+
+\bibitem{JaggerKittner2017}
+\bibinfo{author}{Jagger, P.} \& \bibinfo{author}{Kittner, N.}
+\newblock \bibinfo{title}{Deforestation and biomass fuel dynamics in uganda}.
+\newblock \emph{\bibinfo{journal}{Biomass and Bioenergy}}
+  \textbf{\bibinfo{volume}{105}}, \bibinfo{pages}{1--9} (\bibinfo{year}{2017}).
+
+\bibitem{JaggerShively2014}
+\bibinfo{author}{Jagger, P.} \& \bibinfo{author}{Shively, G.}
+\newblock \bibinfo{title}{Land use change, fuel use and respiratory health in
+  uganda}.
+\newblock \emph{\bibinfo{journal}{Energy Policy}}
+  \textbf{\bibinfo{volume}{67}}, \bibinfo{pages}{713--726}
+  (\bibinfo{year}{2014}).
+
+\bibitem{Asheretal2019}
+\bibinfo{author}{Asher, S.}, \bibinfo{author}{Matsuura, R.},
+  \bibinfo{author}{Lunt, T.} \& \bibinfo{author}{Novosad, P.}
+\newblock \bibinfo{title}{The socioeconomic high-resolution rural-urban
+  geographic dataset on india (shrug)} (\bibinfo{year}{2019}).
+\newblock
+  \urlprefix\url{https://shrug-assets.s3.amazonaws.com/static/main/assets/other/almn-shrug.pdf}.
+\newblock \bibinfo{note}{International Growth Centre Working Paper
+  C-89414-INC-1}.
+
+\bibitem{Asheretal2018}
+\bibinfo{author}{Asher, S.}, \bibinfo{author}{Garg, T.} \&
+  \bibinfo{author}{Novosad, P.}
+\newblock \bibinfo{title}{The ecological impact of transportation
+  infrastructure} (\bibinfo{year}{2018}).
+\newblock
+  \urlprefix\url{https://openknowledge.worldbank.org/handle/10986/29980}.
+\newblock \bibinfo{note}{World Bank Policy Research Working Paper; No. 8507}.
+
+\bibitem{Williams2006}
+\bibinfo{author}{Williams, R.}
+\newblock \bibinfo{title}{Generalized ordered logit/partial proportional odds
+  models for ordinal dependent variables}.
+\newblock \emph{\bibinfo{journal}{The Stata Journal}}
+  \textbf{\bibinfo{volume}{6}} (\bibinfo{year}{2006}).
+
+\bibitem{Williams2012}
+\bibinfo{author}{Williams, R.}
+\newblock \bibinfo{title}{Using the {Margins} command to estimate and interpret
+  adjusted predictions and marginal effects}.
+\newblock \emph{\bibinfo{journal}{The Stata Journal: Promoting communications
+  on statistics and {Stata}}} \textbf{\bibinfo{volume}{12}},
+  \bibinfo{pages}{308--331} (\bibinfo{year}{2012}).
+
+\bibitem{Cragg1971}
+\bibinfo{author}{Cragg, J.~G.}
+\newblock \bibinfo{title}{Some statistical models for limited dependent
+  variables with application to the demand for durable goods}.
+\newblock \emph{\bibinfo{journal}{Econometrica}} \textbf{\bibinfo{volume}{39}},
+  \bibinfo{pages}{829--844} (\bibinfo{year}{1971}).
+
+\bibitem{Garcia2013}
+\bibinfo{author}{Garc\'{i}a, B.}
+\newblock \bibinfo{title}{Implementation of a double-hurdle model}.
+\newblock \emph{\bibinfo{journal}{The Stata Journal}}
+  \textbf{\bibinfo{volume}{13}}, \bibinfo{pages}{776--794}
+  (\bibinfo{year}{2013}).
+
+\end{thebibliography}
